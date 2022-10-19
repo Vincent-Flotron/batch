@@ -20,3 +20,14 @@ will put:
 - etc
 
 The "@echo" means "echo off" then "echo %i %j %k, etc..." then "echo on".
+
+## Find a batch file in the current folder using piping
+
+```batch
+dir /b|find ".bat"
+```
+
+## Links
+
+- [tutorialspoint](https://www.tutorialspoint.com/batch_script/batch_script_functions.htm)
+- [Microsoft: for loop](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/for?source=recommendations)
